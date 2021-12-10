@@ -1,0 +1,32 @@
+*{box-sizing:border-box;}
+.landing-container{
+    display:flex;
+    background:#eee;
+    width:100%;
+    height:70vh;
+    /* text-align:center;
+    justify-content: center; */
+}
+.welcomeText{
+    text-align:center;
+    margin-top:100px;
+    margin-left:100px;
+
+}
+.header{
+    font-size:50px;
+    margin-bottom:30px;
+}
+.primary{
+    display:block;
+    border:none;
+    outline:none;
+    font-size:18px;
+    background:rgb(5, 5, 199);
+    padding:10px 30px 10px 30px;
+    color:#fff;}
+    .primary:hover{background:rgb(5, 5, 153);}
+.welcomephoto >img{
+    height:430px;
+    background:#eee;
+}

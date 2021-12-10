@@ -2,4 +2,7 @@
 .navbar-container{
     display:flex; 
     justify-content: space-between;
+    background:#fff;
+    height:90px;
+    
 }
