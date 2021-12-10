@@ -1,0 +1,5 @@
+*{box-sizing:border-box;}
+.navbar-container{
+    display:flex; 
+    justify-content: space-between;
+}

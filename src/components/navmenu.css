@@ -1,0 +1,27 @@
+*{margin:0;
+    box-sizing:border-box;}
+    .container{display:flex;
+    margin-top:20px;
+    margin-left:20px;
+    font-family:'Times New Roman', Times, serif;
+    color:rgb(119, 117, 117);}
+    .hamburger{
+        margin:8px 30px ;
+        color:blue;
+        font-size:20px;
+    }
+    .logoimage{
+        height:35px;
+    }
+    .forcompanies{
+         margin:10px 25px 20px 50px;
+         font-size:20px;
+    }
+    .forengineers{
+        margin:10px 25px 20px 15px;
+        font-size:20px;
+    }
+    .enterprise{
+        margin:10px 25px 20px 15px;
+        font-size:20px;
+    }
