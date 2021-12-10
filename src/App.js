@@ -2,12 +2,14 @@ import react from 'react';
 import './index.css'
 import Navbar from "./components/Navbar";
 import LandingPage from './components/LandingPage';
+import Trustees from './components/Trustees';
 
 function App() {
   return (
     <div className='app'>
    <Navbar />
    <LandingPage />
+   <Trustees />
    
    {/* // <!-- navbar with 8div -->
 // <!-- 1.sidebar-logo and three divs
