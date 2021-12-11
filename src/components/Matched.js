@@ -3,7 +3,9 @@ import {CgArrowLongRight} from 'react-icons/cg'
 const Matched = () => {
     return (
         <div className="matched_container">
-            <div className="matched_message">Get matched with vetted engineers from around the world and hire them without the overhead.</div>
+            <div className="matched_message">
+                <h2 className="matched-header">Get matched with vetted engineers from around the world and hire them without the overhead.</h2>
+                </div>
             <div className="matched_wrapper">
                 <div className="vetted_engineers">
                     <h3>Vetted Engineers</h3>
