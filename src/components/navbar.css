@@ -4,5 +4,7 @@
     justify-content: space-between;
     background:#fff;
     height:90px;
+    width:100%;
+    position:fixed;
     
 }
