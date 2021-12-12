@@ -1,7 +1,6 @@
 import React from 'react'
 import './matched.css'
 import CheckCircleIcon from '@mui/icons-material/CheckCircle';
-import {FaGlobeAmericas} from 'react-icons/fa'
 import {CgArrowLongRight} from 'react-icons/cg'
 const Matched = () => {
     return (
@@ -21,7 +20,7 @@ const Matched = () => {
                 </div>
                 <div className="global_talent gridcard">
                    
-                    <FaGlobeAmericas/>
+                   
                     <h2>Global talent</h2>
                     <p className="talent_text">
                     Tap into a talent pool that spans multiple regions and multiple countries. The best engineers aren’t always in your backyard
