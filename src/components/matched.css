@@ -1,0 +1,47 @@
+*{box-sizing:border-box;
+}
+.matched_container{
+    display: flex;
+    flex-direction:column;
+    min-height:80vh;
+  padding:50px; 
+  background:#ddd;
+ margin-bottom:40px;
+}
+.matched_message{
+    text-align:center;
+    display:flex;
+    justify-content:center;
+    font-weight:400;
+}
+.matched_header{
+    text-align:center;
+    margin-bottom:40px;
+
+}
+.matched_wrapper{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    grid-column-gap:30px;
+    grid-row-gap:40px;
+    margin:20px 70px 20px 70px;}
+   
+.gridcard{
+    background:#fff;
+    box-shadow: #ddd solid 3px;
+    font-size:23px;
+    padding:30px;
+    border-radius:10px;
+}
+.gridcard button{
+    border:none;
+    outline:none;
+    color:rgb(5,5,195);
+    background:transparent;
+    font-size:18px;
+}
+.gridcard h2{
+    padding:20px;
+}
+.gridcard p{color:grey;
+padding-bottom:20px;}
