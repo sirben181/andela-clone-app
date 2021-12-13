@@ -7,19 +7,21 @@ import ChevronRightIcon from '@mui/icons-material/ChevronRight';
 const Community = () => {
     return (
         <div className="community_container">
-            <div className="community-wrapper">
-           <Avatar
-           className="communityicon" style="">
-             <ChevronLeftIcon  />
-               <FavoriteIcon />
-             <ChevronRightIcon />
-           </Avatar>
-            <h3>Our Community</h3>
-           </div>
-            <div className="community_wrapper">
+          <div className="community_wrapper">
+                 <div className="community_love">
+                    <Avatar
+                    className="communityicon" style={{height:'60px',width:'60px',
+                    backgroundColor:'orange',marginRight:'300px'}}>
+                        <ChevronLeftIcon  />
+                        <FavoriteIcon />
+                        <ChevronRightIcon />
+                    </Avatar>
+                    <h3>Our Community</h3>
+                </div>
+            <div className="profile_wrapper">
                 <div className="community_profile">
-                    <div className="person1_profile"></div>
-                    <div className="person2_profile"></div>
+                    <div className="person1_profile">hello</div>
+                    <div className="person2_profile">oyah</div>
                 </div>
                 <div className="community_info">
                     <div className="engineer_info">
@@ -29,15 +31,16 @@ const Community = () => {
                     </div>
                      <div className="skills_info">
                         <h3>100+ Technical Skills</h3>
-                        <p>Skills include Ruby, Python, Go, Java, JavaScript, 
+                        <p>Skills include Ruby, Python, Go,<br/> Java, JavaScript, 
                             React-Native, Postgres, MongoDB, and many more.</p>
                     </div> 
                     <div className="countries_info">
                         <h3>90+ Countries</h3>
-                        <p>With a geographic footprint that covers Africa, 
+                        <p>With a geographic footprint that covers<br/> Africa, 
                             South America, Eastern Europe, and many more.</p>
                     </div>
-                    <button className="primary">LEARN MORE</button>
+                    <div><button className="primary">LEARN MORE</button></div>
+                    </div>
                 </div>
             </div>
             

@@ -1,17 +1,36 @@
 *{box-sizing:border-box;}
 .community_container{
-    display:flex;
-    justify-content:center;
-    flex-direction:column;
-    text-align:center;
+background:rgb(161, 162, 163);
+min-height:100vh;
+display:flex;
+justify-content:center;
 }
 .community_wrapper{
-    display:flex;
+    display: flex;
     flex-direction:column;
+    justify-content: center;
+    /* text-align: center; */
+   align-content: center;
+   margin:50px;
 }
-.communityicon{
-    text-align:center;
-  height:60;
-  width:60px;
-    background:orange;
-    align-items:center;}
+.community_love{text-align:center;
+margin:40px;}
+.community-love h3{margin:30px;}
+.profile_wrapper{display:flex;}
+.community_profile{
+    display:flex;
+    justify-content:space-between;
+    text-align:flex-start;
+    margin-right:30px;
+}
+.person1_profile{
+    display:flex;
+    height:100%;
+    width:200px;
+    background:rgb(218, 215, 215);
+}.person2_profile{
+    display:flex;
+    height:100%;
+    width:200px;
+    background:#eee;
+}

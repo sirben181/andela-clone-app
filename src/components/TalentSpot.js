@@ -1,10 +1,11 @@
 import React from 'react'
-
+import './talentspot.css'
 const TalentSpot = () => {
     return (
         <div className="talents_sample">
             {/* icon */}
             <h2>Talent Spotlight</h2>
+            <div className="spots_talent">
             <div>
                 <p>Meet a few of the talented engineers 
                     in our growing community.</p>
@@ -28,6 +29,7 @@ const TalentSpot = () => {
                 <p>4 years of experience
                   Kenya
                 </p>
+            </div>
             </div>
             
         </div>

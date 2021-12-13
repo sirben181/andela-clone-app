@@ -1,0 +1,8 @@
+*{box-sizing: border-box;}
+.talents_sample{
+    display:flex;
+    text-align: center;
+    flex-direction: column;
+    height:100vh;padding-top:50px;
+}.talents_sample h2{font-size: 35px;
+}
