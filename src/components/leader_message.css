@@ -1,0 +1,21 @@
+*{box-sizing: border-box;}
+.leader_message_container{
+    background-color: rgba(211, 208, 208, 0.315);
+    min-height:70vh;
+    display:flex;
+    justify-content:center;
+     place-items: center;
+}
+.wrapper_message{
+    display:flex;
+    padding: 50px; 
+}
+.wrapper_message h3{   padding:100px 20px 0 0;
+    font-size:23px;
+}
+.themessage{
+    font-size:22px;
+}
+.authorTitle {color:rgb(134, 134, 134);
+font-size:18px;}
+.authorname{padding-top:20px;}

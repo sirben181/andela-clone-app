@@ -1,0 +1,17 @@
+*{box-sizing:border-box;}
+.community_container{
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+    text-align:center;
+}
+.community_wrapper{
+    display:flex;
+    flex-direction:column;
+}
+.communityicon{
+    text-align:center;
+  height:60;
+  width:60px;
+    background:orange;
+    align-items:center;}

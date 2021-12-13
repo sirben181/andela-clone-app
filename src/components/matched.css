@@ -6,7 +6,7 @@
     min-height:80vh;
   padding:50px; 
   background:#ddd;
- margin-bottom:40px;
+ /* margin-bottom:40px; */
 }
 .matched_message{
     text-align:center;

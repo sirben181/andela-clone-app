@@ -1,10 +1,21 @@
 import React from 'react'
-
+import './community.css'
+import Avatar from '@mui/material/Avatar';
+import FavoriteIcon from '@mui/icons-material/Favorite';
+import ChevronLeftIcon from '@mui/icons-material/ChevronLeft';
+import ChevronRightIcon from '@mui/icons-material/ChevronRight';
 const Community = () => {
     return (
         <div className="community_container">
-            {/* loveicon */}
+            <div className="community-wrapper">
+           <Avatar
+           className="communityicon" style="">
+             <ChevronLeftIcon  />
+               <FavoriteIcon />
+             <ChevronRightIcon />
+           </Avatar>
             <h3>Our Community</h3>
+           </div>
             <div className="community_wrapper">
                 <div className="community_profile">
                     <div className="person1_profile"></div>
