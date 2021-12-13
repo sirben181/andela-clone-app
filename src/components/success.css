@@ -5,6 +5,7 @@
     flex-direction:column;
     padding:50px;
     min-height:80vh;
+    background:rgb(234,235,236);
     
 }
 .success_container h2{font-size: 30px;
