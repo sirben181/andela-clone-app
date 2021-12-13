@@ -1,9 +1,10 @@
 import React from 'react'
-
+import './success.css'
 const Success = () => {
     return (
         <div className="success_container">
             <h2>Success Stories</h2>
+            <div className="cases">
             <div className="first_case">
                 <h3>CASE STUDY</h3>
                 <p>How a Top 10 Global Investment Bank is Rapidly Expanding 
@@ -14,7 +15,7 @@ const Success = () => {
                 <p>Enterprise Software Division of $20B Professional Services Industry Leader 
                     Leverages Andela’s Salesforce Expertise</p>
             </div>
-            
+          </div>
         </div>
     )
 }

@@ -1,0 +1,10 @@
+*{box-sizing: border-box;}
+.footer_container{display:flex;
+flex-direction:column;}
+.growengineer_footer{display:flex;
+    justify-content: space-between;
+    padding:100px;
+}
+.growengineer_footer span{
+    font-size:22px;
+}

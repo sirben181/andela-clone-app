@@ -3,6 +3,20 @@
     display:flex;
     text-align: center;
     flex-direction: column;
-    height:100vh;padding-top:50px;
+    height:100vh;
+    padding:50px 30px 30px 20px;
+    background:rgb(226, 226, 226)
 }.talents_sample h2{font-size: 35px;
+    margin-bottom:40px;
 }
+.spots_talent{
+    display:flex;
+    padding:40px;
+}
+.spots_talent p{
+    padding-right:40px;
+}
+.developer1_profile{display:flex;
+padding-right: 20px;}
+.developer2_profile{display:flex;
+    padding-right: 20px;}
