@@ -1,4 +1,5 @@
 *{margin:0;
+    padding:0;
     box-sizing:border-box;}
     .container{display:flex;
     margin-top:20px;
@@ -10,6 +11,7 @@
         color:blue;
         font-size:20px;
     }
+
     .logoimage{
         height:35px;
     }
@@ -25,3 +27,48 @@
         margin:10px 25px 20px 15px;
         font-size:20px;
     }
+    .listbg{
+        background:#fff;
+        overflow-x :hidden;
+        min-height:70vh;}
+   
+    nav{
+        background:rgb(0, 121, 105);
+       max-height:80px;
+       /* min-height:80vh; */
+        width:250px;
+        position:fixed;
+        top:0;
+        left:-100%;
+        
+    }
+    .closeIcon{color:#000;}
+    .nav-menu.active{
+        left: 0;
+        transition: 350ms;
+       
+    }
+    .nav-menu{
+        background-color: #fff;
+  width: 250px;
+  height: 100vh;
+  display: flex;
+  flex-direction:column;
+
+  /* justify-content: center; */
+  position: fixed;
+  top: 0;
+  left: -100%;
+  transition: 850ms;
+    }
+    .item-menu{
+        list-style:none;
+        padding-left:20px;
+    }.item-menu a{text-decoration:none;}
+    a div h3{
+        padding-bottom:10px;
+        color:orange;
+    }
+    
+    a div p{font-size:20px;
+    color:black;}
