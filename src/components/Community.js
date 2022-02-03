@@ -18,10 +18,10 @@ const Community = () => {
                     <h3>Our Community</h3>
                 </div>
                 <div className="profile_wrapper">
-                <div className="community_profile">
-                    <div className="person1_profile">hello</div>
-                    <div className="person2_profile">oyah</div>
-                </div>
+                   <div className="community_profile">
+                      <div className="person1_profile">hello</div>
+                      <div className="person2_profile">oyah</div>
+                   </div>
                 <div className="community_info">
                     <div className="engineer_info">
                         <h3>175000+ Software Engineers</h3>
