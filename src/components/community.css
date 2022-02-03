@@ -1,20 +1,29 @@
-*{box-sizing:border-box;}
+*{box-sizing:border-box;
+margin:0;
+padding:0;}
 .community_container{
-background:rgb(161, 162, 163);
-min-height:100vh;
-display:flex;
-justify-content:center;
+    display:flex;
+    justify-content:center;
+    background:rgb(161, 162, 163);
+    min-height:100vh;
+/* text-align:center; */
 }
 .community_wrapper{
     display: flex;
     flex-direction:column;
     justify-content: center;
     /* text-align: center; */
-   align-content: center;
+   /* align-content: center; */
    margin:50px;
 }
-.community_love{text-align:center;
-margin:40px;}
+.community_love{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-content:center;
+    margin:40px;}
+ .communityicon{background-color:yellow;
+}
 .community-love h3{margin:30px;}
 .profile_wrapper{display:flex;}
 .community_profile{

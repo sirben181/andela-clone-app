@@ -8,17 +8,16 @@ const Community = () => {
     return (
         <div className="community_container">
           <div className="community_wrapper">
-                 <div className="community_love">
+                <div className="community_love">
                     <Avatar
-                    className="communityicon" style={{height:'60px',width:'60px',
-                    backgroundColor:'orange',marginRight:'300px'}}>
-                        <ChevronLeftIcon  />
+                    className="communityicon" sx={{ width: 80, height: 80,bgcolor:'orange'}}>
+                        <ChevronLeftIcon />
                         <FavoriteIcon />
                         <ChevronRightIcon />
                     </Avatar>
                     <h3>Our Community</h3>
                 </div>
-            <div className="profile_wrapper">
+                <div className="profile_wrapper">
                 <div className="community_profile">
                     <div className="person1_profile">hello</div>
                     <div className="person2_profile">oyah</div>

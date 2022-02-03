@@ -1,35 +1,39 @@
-*{margin:0;
+*{  margin:0;
     padding:0;
-    box-sizing:border-box;}
-    .container{display:flex;
+    box-sizing:border-box;
+}
+.container{display:flex;
     margin-top:20px;
     margin-left:20px;
     font-family:'Times New Roman', Times, serif;
-    color:rgb(119, 117, 117);}
-    .hamburger{
+    color:rgb(119, 117, 117);
+
+
+}
+.hamburger{
         margin:8px 30px ;
         color:blue;
         font-size:20px;
     }
 
-    .logoimage{
+.logoimage{
         height:35px;
     }
-    .forcompanies{
+.forcompanies{
          margin:10px 25px 20px 50px;
          font-size:20px;
     }
-    .forengineers{
+.forengineers{
         margin:10px 25px 20px 15px;
         font-size:20px;
     }
-    .enterprise{
+.enterprise{
         margin:10px 25px 20px 15px;
         font-size:20px;
     }
    
    
-    nav{
+ nav{
         /* background:rgb(0, 121, 105); */
        max-height:80px;
        /* min-height:80vh; */
@@ -39,19 +43,18 @@
         left:-100%;
         
     }
-    .closeIcon{color:#000;}
-    .nav-menu.active{
+.closeIcon{color:#000;}
+.nav-menu.active{
         left: 0;
         transition: 350ms;
        
     }
-    .nav-menu{
+.nav-menu{
         background-color: rgba(37, 172, 82, 0.295);
-  width: 250px;
-  height: 100vh;
-  display: flex;
-  flex-direction:column;
-  z-index:15;
+        width: 250px;
+        height: 100vh;
+        display: flex;
+        flex-direction:column;
 
   /* justify-content: center; */
   position: fixed;
@@ -59,14 +62,15 @@
   left: -100%;
   transition: 850ms;
     }
-    .item-menu{
+.item-menu{
         list-style:none;
         padding-left:20px;
-    }.item-menu a{text-decoration:none;}
-    a div h3{
+    }
+.item-menu a{text-decoration:none;}
+a div h3{
         padding-bottom:10px;
         color:orange;
     }
     
-    a div p{font-size:20px;
+a div p{font-size:20px;
     color:black;}
