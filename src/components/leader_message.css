@@ -6,15 +6,16 @@
     justify-content:center;
      place-items: center;
 }
-.wrapper_message{
+.wrapper_message {
     display:flex;
-    padding: 50px; 
 }
-.wrapper_message h3{   padding:100px 20px 0 0;
-    font-size:23px;
-}
+.logo_testimonial{padding-top:-30px;}
+
 .themessage{
     font-size:22px;
+    padding-top:100px;
+    padding-left:50px;
+
 }
 .authorTitle {color:rgb(134, 134, 134);
 font-size:18px;}

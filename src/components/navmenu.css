@@ -30,7 +30,7 @@
    
    
     nav{
-        background:rgb(0, 121, 105);
+        /* background:rgb(0, 121, 105); */
        max-height:80px;
        /* min-height:80vh; */
         width:250px;
@@ -46,11 +46,12 @@
        
     }
     .nav-menu{
-        background-color: #fff;
+        background-color: rgba(37, 172, 82, 0.295);
   width: 250px;
   height: 100vh;
   display: flex;
   flex-direction:column;
+  z-index:15;
 
   /* justify-content: center; */
   position: fixed;
