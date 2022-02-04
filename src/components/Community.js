@@ -43,19 +43,19 @@ const Community = () => {
                                   </div>
                                   <div className="person2_profile">
                                        <div className='person2_wrapper'>
-                                            <div className='cardheader'>
-                                                    <Avatar  sx={{width: 50, height: 50}}/>
-                                                    <div className='cardheader_details'>
-                                                    <p>name</p>
-                                                    <p>Location</p>
+                                            <div className='cardhead'>
+                                                    <Avatar  sx={{width: 50, height: 50}} src='https://mui.com/static/images/avatar/1.jpg'/>
+                                                    <div className='cardheader_info'>
+                                                    <p><strong>Haiba</strong></p>
+                                                    <p><LocationOnIcon sx={{height: 20, width: 20}}/> Cairo,Egypt</p>
                                                     </div>
                                                 </div>
-                                                <div className='cardbody'>
-                                                        <p className=''> 5 years experience</p>
-                                                        <p><span>.NET</span><span>Angular</span><span>Ansible</span></p>
-                                                        <p><span>C#</span><span>Data Modeling</span></p>
-                                                        <p><span>React</span><span>React API(Advance)</span></p>
-                                                        <p><span>MachineLearning</span></p>
+                                                <div className='card_body'>
+                                                        <p className='cardbody_firstrow'> 5 years experience</p>
+                                                        <p className='cardbody_second'><span>.NET</span><span>Angular</span><span>Ansible</span></p>
+                                                        <p className='cardbody_third'><span>C #</span><span>Data Modeling</span></p>
+                                                        <p className='cardbody_four'><span>React</span><span>RestAPI(Advance)</span></p>
+                                                        <p className='cardbody_five'><span>MachineLearning</span></p>
                                                     </div>
                                             
                                        </div>

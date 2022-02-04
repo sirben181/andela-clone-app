@@ -98,6 +98,46 @@ right:-140px;}
     display:flex;
     flex-direction: column;
 }
-.person_wrapper .cardheader{
+.cardhead{
     display:flex;
 }
+.cardheader_info{padding-left:20px;}
+.card_body p{padding:10px;
+margin-top:5px;}
+.card_body span{
+margin-right:5px;}
+.cardbody_firstrow{
+    padding:10px;
+    background: rgb(151, 163, 170);
+    border-radius:6px;
+    text-align:center;
+    color:rgb(7, 80, 114);
+}
+.cardbody_second{
+    color:#fff;
+    margin-left:-10px;
+
+}
+.cardbody_second span{ 
+    background:rgb(9, 117, 218);
+    padding:8px;
+    border-radius:20px;
+}
+.cardbody_third{color:#fff; 
+    margin-left:-10px;}
+.cardbody_third span{
+    background:rgb(108, 171, 182);
+    padding:8px;
+   border-radius:20px;  
+}
+.cardbody_four{color:#fff;
+margin-left:-10px;}
+.cardbody_four span{ 
+     background:rgb(179, 140, 13);
+    border-radius:20px;
+     padding:8px;}
+    .cardbody_five{ color:#fff;}
+     .cardbody_five span{ 
+        background:rgb(179, 140, 13);
+       border-radius:20px;
+        padding:8px;}
