@@ -35,12 +35,15 @@
    
  nav{
         /* background:rgb(0, 121, 105); */
-       max-height:80px;
-       /* min-height:80vh; */
+       /* min-height:80px; */
+       height:70vh;
         width:250px;
         position:fixed;
         top:0;
         left:-100%;
+        z-index:25;
+        background:rgb(199, 194, 194);
+
         
     }
 .closeIcon{color:#000;}
@@ -50,11 +53,12 @@
        
     }
 .nav-menu{
-        background-color: rgba(37, 172, 82, 0.295);
+        /* background-color: rgba(37, 172, 82, 0.295); */
         width: 250px;
         height: 100vh;
         display: flex;
         flex-direction:column;
+
 
   /* justify-content: center; */
   position: fixed;

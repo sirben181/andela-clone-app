@@ -2,7 +2,7 @@ import React from 'react';
 import './navmenu.css';
 import {FaBars} from 'react-icons/fa'
 import Sidebar from './Sidebar.js'
-const NavMenu = ({handleSidebar}) => {
+const NavMenu = ({sidebar,handleSidebar}) => {
    
     return (
         <div className="container">
@@ -22,7 +22,8 @@ const NavMenu = ({handleSidebar}) => {
             <div className='enterprise'>
                <p className='enterprise-text' >Enterprise</p>
             </div>
-            <Sidebar handleSidebar={handleSidebar} />
+            <Sidebar handleSidebar={handleSidebar}
+            sidebar={sidebar} />
            
         </div>
     )

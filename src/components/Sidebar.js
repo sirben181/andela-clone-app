@@ -2,11 +2,7 @@ import React,{useState} from 'react';
 import './navmenu.css';
 import CloseIcon from '@mui/icons-material/Close';
 import {NavMenuDetails} from './NavMenuDetails'
-const Sidebar = () => {
-    const [sidebar,setSidebar]=useState(false)
-    const handleSidebar=()=>{
-        setSidebar(!sidebar)
-    }
+const Sidebar =({sidebar,handleSidebar})=>{
   return <div>
        <nav className={sidebar ? 'nav-menu active' :'navmenu'}>
             <CloseIcon  style={{fontSize:'30px'}} className="closeIcon" onClick={handleSidebar}/>
