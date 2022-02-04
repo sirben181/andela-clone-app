@@ -19,14 +19,16 @@ const App=() =>{
     <div className='app'>
         <Navbar handleSidebar={handleSidebar}
         sidebar={sidebar}/>
-        <LandingPage />
-        <Trustees />
-        <Matched />
-        <Leader_message />
-        <Community />
-        <TalentSpot />
-        <Success />
-      <Footer />
+        <div className={sidebar ? 'phague': 'clear'}>
+          <LandingPage />
+          <Trustees />
+          <Matched />
+          <Leader_message />
+          <Community />
+          <TalentSpot />
+          <Success />
+          <Footer />
+      </div>
     </div>
   )
 }

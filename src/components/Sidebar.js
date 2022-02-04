@@ -5,29 +5,30 @@ import {NavMenuDetails} from './NavMenuDetails'
 const Sidebar =({sidebar,handleSidebar})=>{
   return <div>
        <nav className={sidebar ? 'nav-menu active' :'navmenu'}>
-            <CloseIcon  style={{fontSize:'30px'}} className="closeIcon" onClick={handleSidebar}/>
-            < ul onClick={handleSidebar} className="listbg">
+            <CloseIcon  style={{fontSize:'30px',marginLeft: '40px', color:'blue'}} className="closeIcon" onClick={handleSidebar}/>
+            < ul  className="listbg">
                 {NavMenuDetails.map((item)=>{
                     return(
                       
                         <li className="item-menu"
-                        key={item.id}>
+                        key={item.id}
+                        >
                             <a href="#">
-                            <div className='hiring'>
+                            <div className='hiring' onClick={handleSidebar}>
                                 <h3>{item.title1}</h3>
                                 <p>{item.paraH1}</p>
                                 <p>{item.paraH2} </p>
                             </div>
                             </a>
                             <a href="#">
-                            <div className="joining">
+                            <div className="joining" onClick={handleSidebar}>
                                <h3>{item.title2}</h3>
                                <p>{item.paraJ1}</p>
                                <p>{item.paraJ2}</p>
                             </div>
                             </a>
                             <a href="#">
-                            <div className="aboutus">
+                            <div className="aboutus" onClick={handleSidebar}>
                                 <h3>{item.title3}</h3>
                                 <p>{item.paraA1}</p>
                                 <p>{item.paraA2}</p>

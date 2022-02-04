@@ -1,3 +1,7 @@
 *{margin:0;
 box-sizing :border-box;}
 .app{position:relative;}
+.phague{opacity: 0.2;
+    position:fixed;
+}
+.clear{opacity:1;}
