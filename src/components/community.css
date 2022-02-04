@@ -5,7 +5,7 @@ padding:0;}
     display:flex;
     justify-content:center;
     align-items:center;
-    background:rgb(184, 181, 181);
+    background:#eee;
     min-height:70vh;
     height:auto;
 }
@@ -37,11 +37,11 @@ font-family: 'Times New Roman', Times, serif;}
     padding:20px;
 position:relative;}
 .person1_profile{margin:20px;
-background:#eee;
+background:#fff;
 width:250px;
 height:350px;
 border-radius:10px;
-box-shadow: 2px 3px 5px 4px;}
+box-shadow: 2px 2px  2px;}
 .person1_wrapper{
     margin:25px;
     display:flex;
@@ -86,13 +86,14 @@ border-radius:20px;}
     .row_skill{color:rgb(55, 76, 194);}
     /* cardperson2 */
 .person2_profile{margin:20px;
-background:#ddd;
+background:#fff;
 width:250px;
 height:350px;
 border-radius:10px;
 position:absolute;
 bottom:10px;
-right:-140px;}
+right:-140px;
+box-shadow: 2px 2px  2px;}
 .person2_wrapper{
     margin:25px;
     display:flex;
